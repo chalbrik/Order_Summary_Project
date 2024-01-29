@@ -1,0 +1,16 @@
+.container{
+    background-color: yellow;
+    height: 750px;
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: row;
+
+
+    align-items: center;
+   justify-content: center;
+
+
+}
