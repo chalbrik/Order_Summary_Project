@@ -1,8 +1,11 @@
+
 body{
     background-image: url("./images/pattern-background-desktop.svg");
-    background-size: 100% 55%;
+    /* background-size: 100% 55%; */
     background-repeat: no-repeat;
     background-color: #E0E8FF;
+    width: 1450px;
+    
 
     
 }
