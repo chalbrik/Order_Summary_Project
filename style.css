@@ -1,6 +1,17 @@
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+
+    
+}
+
 .container{
-    border: 2px solid;
-    height: 750px;
+
+    background-color: white;
+   
+    height: 700px;
     width: 450px;
     margin: auto;
     margin-top: 100px;
@@ -13,11 +24,12 @@
 }
 
 .main_data{
-    background-color: brown;
+    height: 700px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 50px;
+
    
 
     align-items: center;
@@ -30,7 +42,7 @@
     font-weight: 700;
 
     margin: auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
     
     
     
@@ -46,16 +58,125 @@
     text-align: center;
     font-size: 1rem;
     line-height: 1.5;
+    
 }
 
-.annual_plan_data{
-    background-color: aqua;
-    width: 100%;
+.annual_plan_elements{
+    background-color: #F8F9FE;
+    width: 84%;
+    height: 100px;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
 
     align-items: center;
-    justify-content: center;
+ 
+    justify-content: space-between;
+
+    /* padding: 10px 0 10px 0; */
+    padding: 0 8% 0 8%;
     
 }
+
+.annual_plan_data{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+    height: 48px;
+    width: 120px;
+    margin-left: -50px;
+}
+
+.annual_plan_data > h3{
+    font-weight: 700;
+    font-size: 1rem;
+    
+
+    margin: 0 0;
+}
+
+.annual_plan_data > p{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #7e808e;
+    
+    margin: 0 0;
+}
+
+.button-change{
+    font-family: 'Montserrat', sans-serif;
+    color: #1E20CD;
+    cursor: pointer;
+    
+    font-weight: 600;
+    text-decoration: underline;
+
+    border: none;
+    background: none;
+}
+
+.button-change:hover {
+    text-decoration: none;
+}
+
+.button-change:focus {
+    text-decoration: none;
+    color: #948de4;
+}
+
+
+.button-payment {
+  
+  background-color: #1E20CD;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 20px 35px #9e9fd7;
+ 
+  color: #fff;
+  cursor: pointer;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  
+  height: 55px;
+  
+  margin-top: 30px;
+
+  width: 100%;
+}
+
+.button-payment:hover {
+    background-color: #5a4de5;
+}
+
+.button-payment:focus {
+    background-color: #5a4de5;
+}
+
+
+.button-cancel{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(170, 170, 170);
+    
+    font-weight: 700;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.button-cancel:hover {
+    color: black;
+}
+
+.button-cancel:focus {
+    color: black;
+}
+
