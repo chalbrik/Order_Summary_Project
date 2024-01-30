@@ -1,19 +1,14 @@
-
-body{
+body {
     background-image: url("./images/pattern-background-desktop.svg");
     background-size: 100% 55%;
     background-repeat: no-repeat;
     background-color: #E0E8FF;
-   
-    
-
-    
 }
 
-.container{
+.container {
 
     background-color: white;
-   
+
     height: 700px;
     width: 450px;
     margin: auto;
@@ -26,45 +21,39 @@ body{
 
 }
 
-.main_data{
+.main_data {
     height: 700px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 50px;
 
-   
-
     align-items: center;
     justify-content: center;
 }
 
-.main_data > h1{
+.main_data>h1 {
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 
     margin: auto;
     font-size: 1.8rem;
-    
-    
-    
-    
+
 }
 
-.main_data > p {
+.main_data>p {
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 
-
     text-align: center;
     font-size: 1rem;
     line-height: 1.5;
-    
+
 }
 
-.annual_plan_elements{
+.annual_plan_elements {
     background-color: #F8F9FE;
     width: 84%;
     height: 100px;
@@ -73,49 +62,44 @@ body{
     flex-wrap: wrap;
 
     align-items: center;
- 
-    justify-content: space-between;
 
-    /* padding: 10px 0 10px 0; */
+    justify-content: space-between;
     padding: 0 8% 0 8%;
-    
+
 }
 
-.annual_plan_data{
+.annual_plan_data {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
-    
 
     height: 48px;
     width: 120px;
     margin-left: -50px;
 }
 
-.annual_plan_data > h3{
+.annual_plan_data>h3 {
     font-weight: 700;
     font-size: 1rem;
-    
 
     margin: 0 0;
 }
 
-.annual_plan_data > p{
+.annual_plan_data>p {
     font-weight: 500;
     font-size: 1rem;
     color: #7e808e;
-    
+
     margin: 0 0;
 }
 
-.button-change{
+.button-change {
     font-family: 'Montserrat', sans-serif;
     color: #1E20CD;
     cursor: pointer;
-    
+
     font-weight: 600;
     text-decoration: underline;
 
@@ -134,24 +118,24 @@ body{
 
 
 .button-payment {
-  
-  background-color: #1E20CD;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 3px 20px 35px #9e9fd7;
- 
-  color: #fff;
-  cursor: pointer;
 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
-  
-  height: 55px;
-  
-  margin-top: 30px;
+    background-color: #1E20CD;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 20px 35px #9e9fd7;
 
-  width: 100%;
+    color: #fff;
+    cursor: pointer;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+
+    height: 55px;
+
+    margin-top: 30px;
+
+    width: 100%;
 }
 
 .button-payment:hover {
@@ -163,10 +147,10 @@ body{
 }
 
 
-.button-cancel{
+.button-cancel {
     font-family: 'Montserrat', sans-serif;
     color: rgb(170, 170, 170);
-    
+
     font-weight: 700;
     border: none;
     background: none;
@@ -183,3 +167,43 @@ body{
     color: black;
 }
 
+
+@media (max-width: 376px) {
+    .container {
+        height: 550px;
+        width: 325px;
+    }
+
+    .main_data {
+        padding: 25px;
+    }
+
+    .main_data>h1 {
+        font-size: 1.5rem;
+    }
+
+    .main_data>p {
+
+        font-size: 0.75rem;
+    }
+
+    .annual_plan_elements {
+        width: 94%;
+        padding: 0 3% 0 3%;
+    }
+
+    .annual_plan_data {
+        margin-left: -20px;
+    }
+
+    .button-payment {
+        box-shadow: 3px 10px 35px #9e9fd7;
+
+    }
+
+    .button-cancel {
+        margin-top: 20px;
+        padding-bottom: 10px;
+
+    }
+}
