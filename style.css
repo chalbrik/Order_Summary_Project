@@ -80,14 +80,14 @@ body {
     margin-left: -50px;
 }
 
-.annual_plan_data>h3 {
+.annual_plan_data.annual-plan {
     font-weight: 700;
     font-size: 1rem;
 
     margin: 0 0;
 }
 
-.annual_plan_data>p {
+.annual_plan_data.price {
     font-weight: 500;
     font-size: 1rem;
     color: #7e808e;
